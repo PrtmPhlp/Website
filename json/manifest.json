@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "item§lMenu(1.0.5)",
+		"description": "developed by §lPrtmPhlp",
+		"uuid": "6468a42a-78b9-419a-bc6a-de2ca2efbd13",
+		"version": [
+								1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "5d6137b4-5ea2-4984-95d9-f1f269e84892",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philipps Website</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="192x192" href="/192x192.png">
+  <style>
+    body {
+      font-family: arial, "Verdana", Verdana;
+    }
+
+
+    h1,
+    span {
+      color: black;
+      text-align: center;
+      background: #ccc;
+      padding: 0, 25em;
+      border: 1px solid;
+    }
+
+    span1 {
+      color: black;
+      background-color: #ccc;
+      border-radius: 1em;
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+
+    span {
+      color: black;
+    }
+
+    p1 {
+      color: #2b2fa2;
+    }
+
+    li {
+      width: 10em;
+      text-align: center;
+      margin: 0 0 5px;
+    }
+
+    li:first-child {
+      background-color: lightgray;
+      border: 1px solid;
+      border-radius: 5px;
+    }
+
+    li:nth-child(2) {
+      background-color: lightgrey;
+      border: 1px solid;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>PrtmPhlps Website</h1>
+  <div style="text-align: center">
+    <p>
+      <span1>Das hier ist <p2>PrtmPhlps</p2>
+        <p1>Website</p1>
+      </span1>
+    </p>
+  </div>
+  <ol>
+    <a id="947900830" href="#">http://www.uhr-homepage.de</a>
+    <script src="https://www.uhr-homepage.de/data.php?i=947900830&h=83&w=190" type="text/javascript"></script>
+  </ol>
+  <ol>
+    <li><a href="html/seite02.html">Stundenplan</a></li>
+    <li>
+      <font-size="2" color="#000000">Platzhalter
+    </li>
+  </ol>
+  <img src="img/logo.jpg" alt="Logo">
+</body>
+
+</html>

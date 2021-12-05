@@ -1,0 +1,22 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+.logo
+{
+    position: relative;
+    color: #fff;
+    font-size: 5em;
+    /* text-shadow: 0 0 #0f0, 0 0 100px #0f0; */
+    font-family: arial;
+}
