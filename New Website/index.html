@@ -26,29 +26,20 @@
 		// save "replace" variable in "replace"
 		let replace = document.getElementById("replace");
 
-		function changeColor(event) {
-			switch (changeColor) {
-				case "Groß":
-					replace.innerText = "Bye...Everyone!";
-					replace.style.fontSize = "3rem";
-					console.log(replace)
-					break;
-				case "Klein":
-					replace.innerText = "Bye...Everyone!";
-					replace.style.fontSize = "3rem";
-					console.log(replace)
-				default:
-					replace.innerText = "Hello World";
-					replace.style.fontSize = "1.2rem";
-					break; 
-			}
-
-
-
-
+		function changeColor(cool) {
+			replace.innerText = "Bye...Everyone!";
+			replace.style.fontSize = "2rem";
+			replace.style.color = "red";
+			console.log(replace)
 			// Timer which first waits 0.5s and then resets the font Size to 1.5rem
-			//setTimeout(() => { document.getElementById("replace").style.fontSize = "1.2rem"; }, 500);
+			setTimeout(() => { replace.style.fontSize = "1.2rem"; replace.innerText = "Hello World!"; replace.style.color = "black"; }, 500);
+
 		}
+
+
+
+
+
 
 		// Consider storing it in localStorage if you need it across the site
 		let origTitle = document.title;
