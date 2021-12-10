@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./inter.css">
+	<title>
+		<3 PrtmPhlp</title>
+			<style>
+				* {
+					font-family: Arial;
+					text-align: center;
+					font-size: 1.2rem;
+				}
+			</style>
+</head>
+
+<body>
+	<h1>Hello World</h1>
+	<button onclick="changeColor()">A+</button>
+	<p id="replace">Hello World!</p>
+	<script>
+
+		// save "replace" variable in "replace"
+		let replace = document.getElementById("replace");
+
+		function changeColor(event) {
+			switch (changeColor) {
+				case "Groß":
+					replace.innerText = "Bye...Everyone!";
+					replace.style.fontSize = "3rem";
+					console.log(replace)
+					break;
+				case "Klein":
+					replace.innerText = "Bye...Everyone!";
+					replace.style.fontSize = "3rem";
+					console.log(replace)
+				default:
+					replace.innerText = "Hello World";
+					replace.style.fontSize = "1.2rem";
+					break; 
+			}
+
+
+
+
+			// Timer which first waits 0.5s and then resets the font Size to 1.5rem
+			//setTimeout(() => { document.getElementById("replace").style.fontSize = "1.2rem"; }, 500);
+		}
+
+		// Consider storing it in localStorage if you need it across the site
+		let origTitle = document.title;
+
+		// Change title when focusing on tab
+		function oldTitle() {
+			document.title = origTitle;
+		}
+
+		// Function to change title when un-focusing on tab
+		function newTitle() {
+			document.title = 'Komm wieder :(';
+		}
+
+		// Bind functions to blur and focus events
+		window.onblur = newTitle;
+		window.onfocus = oldTitle;
+
+	</script>
+</body>
+
+</html>
