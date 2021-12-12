@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./inter.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<title>
 		<3 PrtmPhlp</title>
 			<style>
@@ -18,24 +19,25 @@
 </head>
 
 <body>
-	<h1>Hello World</h1>
-	<button onclick="changeColor()">A+</button>
-	<p id="replace">Hello World!</p>
+	<div id="wrapper">
+		<h1>Hello World</h1>
+		<button onclick="changeColor()">Magic!</button>
+		<p id="replace">Hello World!</p>
+	</div>
 	<script>
 
 		// save "replace" variable in "replace"
-		let replace = document.getElementById("replace");
+		let replace = document.getElementById('replace');
+		let gradient = document.getElementById('gradient');
 
 		function changeColor(cool) {
 			replace.innerText = "Bye...Everyone!";
 			replace.style.fontSize = "2rem";
-			replace.style.color = "red";
+			replace.style.color = "white";
 			console.log(replace)
 			// Timer which first waits 0.5s and then resets the font Size to 1.5rem
 			setTimeout(() => { replace.style.fontSize = "1.2rem"; replace.innerText = "Hello World!"; replace.style.color = "black"; }, 500);
-
 		}
-
 
 
 
