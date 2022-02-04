@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+########################################################################
+# Filename    : Blink.py
+# Description : Basic usage of GPIO. Let led blink.
+# auther      : www.freenove.com
+# modification: 2019/12/28
+########################################################################
+import RPi.GPIO as GPIO
+import time
+
+ledPin = 11    # LED definieren
+
+def setup():
+    GPIO.setmode(GPIO.BOARD)       # GPIO einschalten
+    GPIO.setup(ledPin, GPIO.OUT)   # LED ausschalten
+    GPIO.output(ledPin, GPIO.LOW)
+
+def loop():
+    while True:
+        GPIO.output(ledPin, GPIO.HIGH)
+def destroy():
+    GPIO.cleanup()                      # Alle Pins ausschalten
+
+if __name__ == '__main__':    # Standart Ablauf
+    print ('Program is starting ... \n')
+    setup()
+    try:
+        loop()
+    except KeyboardInterrupt:   # ctrl-c zum ausschaltencd touch euefoieeeeeeedwdwdwrgüoi eurglkhelrhssssscfdsgffddddfffff
+        destroy()
+
