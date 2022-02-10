@@ -152,6 +152,7 @@ These are the files for PrtmPhlp's Website
 │           ├── 08.0_PickApple.sb3
 │           ├── 08.1_Fish.sb3
 │           └── Scratch3.pdf
+├── .gitignore
 ├── img
 │   ├── 192px.png
 │   ├── BergeBäumeBraun.jpg
@@ -376,5 +377,6 @@ These are the files for PrtmPhlp's Website
         ├── uhr.css
         ├── w2.css
         └── w3.css
-# 328 directories, 856 files
+
+84 directories, 290 files
 ```
