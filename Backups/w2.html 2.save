@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Website 2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="w2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="loader_bg">
+      <div class="loader"></div>
+      <h1>Loading...</h1>
+    </div>
+
+    <div class="box-area">
+      <header>
+        <div class="wrapper">
+          <div class="logo">
+            <a href="#">PrtmPhlp</a>
+          </div>
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">Über</a>
+            <a href="parallax.html">Parallax</a>
+            <a href="index.html">Website 1</a>
+            <a href="w1.html">Website 2</a>
+          </nav>
+        </div>
+      </header>
+      <div class="banner-area">
+        <h2>Das ist ein Bild</h2>
+      </div>
+      <div class="content-area">
+        <div class="wrapper">
+          <h2>Platzhalter</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
+            esse est iste magni reprehenderit saepe sint! Assumenda consectetur
+            fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto
+            perspiciatis suscipit voluptatibus! Ad alias assumenda autem
+            deleniti esse est excepturi hic itaque, magnam magni nam officia
+            provident quae recusandae reiciendis rem sed. Adipisci animi aut
+            autem deserunt dolore, ea eius error ex facilis inventore ipsum
+            minus modi nihil nostrum nulla, obcaecati porro reprehenderit
+            repudiandae sed sint sunt tempore vero. At dolores doloribus,
+            dolorum ea eaque hic ipsa iusto libero minus natus neque nisi nobis
+            nostrum odio optio pariatur perspiciatis praesentium rerum sapiente.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        $(".loader_bg").fadeToggle();
+      }, 1500);
+    </script>
+  </body>
+</html>

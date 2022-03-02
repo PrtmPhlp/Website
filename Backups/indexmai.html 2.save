@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="img/192px.png" type="image/x-icon">
+    <title>PrtmPhlps Website</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="img/192px.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="w1.html">Website 1</a></li>
+                <li><a href="w2.html">Website 2</a></li>
+                <li><a href="Button/Button with/ animation/button_2.html">Button</a></li>
+                <li><a href="#">Kitchen</a></li>
+                <li><a href="#">Backyard</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>PrtmPhlps Website</h1>
+            <p>Diese Website ist zurzeit im Development</p>
+            <p>Über die untenstehenden Links gelangen sie zu alternativen Startseiten (No.2 ist mit banner)</p>
+            <div>
+                <a href="w1.html"><button type="Knopf"><span></span>Startseite 1</button></a>
+                <a href="w2.html"><button type="Knopf"><span></span>Startseite 2</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

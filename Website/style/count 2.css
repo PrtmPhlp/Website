@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+
+body {
+  margin: 0;
+  padding: 5rem 0 5rem 0;
+  width: 100%;
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  background: #111111;
+}
+
+body .page {
+  position: relative;
+  z-index: 3;
+  width: 90%;
+  max-width: 120rem;
+  margin: 0 auto;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+
+body {
+  margin: 0;
+  padding: 5rem 0 5rem 0;
+  width: 100%;
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  background: #111111;
+}
+
+body .page {
+  position: relative;
+  z-index: 3;
+  width: 90%;
+  max-width: 120rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body .page h1, h2 {
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 10rem 0 2rem 0;
+  padding: 0 0 0 0;
+  color: #fff;
+  line-height: 4.5rem;
+}
+
+body .page p {
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #f5f5f5;
+}
+
+body .page #timer {
+  margin: 6rem 0 0 0;
+  font-size: 6rem;
+  font-weight: 300;
+  color: #ff6600;
+}
+
+body .page #timer span {
+  margin: 0 4rem 0 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+body .page #timer span i {
+  font-style: normal;
+  font-size: 1rem;
+  color: #666666;
+}
+/*Timer 2*/
+#timer2 {
+  margin: 6rem 0 0 0;
+  font-size: 6rem;
+  font-weight: 300;
+  color: #ff6600;
+}
+
+#timer2 span {
+  margin: 0 4rem 0 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+#timer2 span i {
+  font-style: normal;
+  font-size: 1rem;
+  color: #666666;
+}
+/*Timer 3*/
+#timer3 {
+  margin: 6rem 0 0 0;
+  font-size: 6rem;
+  font-weight: 300;
+  color: #ff6600;
+}
+
+#timer3 span {
+  margin: 0 4rem 0 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+#timer3 span i {
+  font-style: normal;
+  font-size: 1rem;
+  color: #666666;
+}

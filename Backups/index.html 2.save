@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>PrtmPhlps Website</title>
+  </head>
+  <body>
+    <div id="kopf"><a href="http://prtm.ddns.net">PrtmPhlps Homepage</a></div>
+    <div id="nav">
+        <a id="gruen" href="#">Home</a>
+        <a id="rot" href="#">Produkte</a>
+        <a id="orange" href="#">Über uns</a>
+        <a id="blau" href="#">Kontakte</a>
+        <a id="pink" href="Website/Seite02.html">Impressum</a>
+    </div>
+  </body>
+</html>
