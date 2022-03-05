@@ -1,0 +1,3 @@
+# VSCode exclude
+./.vscode
+./.DS_Store
