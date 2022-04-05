@@ -21,10 +21,26 @@
     <!--*=============== CSS ===============-->
     <link rel="stylesheet" href="/Main Website/assets/css/styles.css">
 
-    <title><3 PrtmPhlp</title>
+    <title>About | PrtmPhlp</title>
 </head>
 
 <body>
+
+    <script>
+        let origTitle = document.title;
+
+  		function newTitle() {
+    		document.title = '<3 PrtmPhlp';
+		}
+
+
+        function oldTitle() {
+			document.title = origTitle;
+		}
+
+        window.onblur = newTitle;
+		window.onfocus = oldTitle;
+    </script>
     <header class="header" id="header">
         <nav class="nav container">
             <a href="" class="nav__logo">PrtmPhlp</a>
@@ -70,7 +86,7 @@
             <div class="home__container container grid">
                 <div class="home__data">
                     <span class="home__data-subtitle">Herzlich</span>
-                    <h1 class="home__data-title">Willkommen <br> auf <b>PrtmPhlps <br> Website</b></h1>
+                    <h1 class="home__data-title">Willkommen <br> auf <b>PrtmPhlps<br> Website</b></h1>
                     <a href="#about" class="button">Erkunden</a>
 
                 </div>
@@ -363,7 +379,7 @@
                         </div>
                     </div>
 
-                    <a href="/TicTac/index.html">
+                    <a href="/Projects/TicTac/index.html">
                         <button class="button button--flex place__button">
                         <i class="ri-arrow-right-line"></i>
                     </button></a>
