@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- No Chache loading -->
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
 
     <link rel="shortcut icon" href="/img/192px.png" type="image/png">
 
@@ -29,17 +33,17 @@
     <script>
         let origTitle = document.title;
 
-  		function newTitle() {
-    		document.title = '<3 PrtmPhlp';
-		}
+        function newTitle() {
+            document.title = '<3 PrtmPhlp';
+        }
 
 
         function oldTitle() {
-			document.title = origTitle;
-		}
+            document.title = origTitle;
+        }
 
         window.onblur = newTitle;
-		window.onfocus = oldTitle;
+        window.onfocus = oldTitle;
     </script>
     <header class="header" id="header">
         <nav class="nav container">
@@ -340,10 +344,10 @@
                         </button></a>
                 </div>
 
-                
+
                 <div class="place__card">
                     <img src="Main Website/assets/img/place5.jpg" alt="" class="place__img">
-                <!--==================== PLACES CARD 5 ====================-->    
+                    <!--==================== PLACES CARD 5 ====================-->
                     <div class="place__content">
                         <!-- <span class="place__rating">
                                 <i class="ri-star-line place__rating-icon"></i>
@@ -359,8 +363,8 @@
 
                     <a href="/Website/html/Todo.html">
                         <button class="button button--flex place__button">
-                        <i class="ri-arrow-right-line"></i>
-                    </button></a>
+                            <i class="ri-arrow-right-line"></i>
+                        </button></a>
                 </div>
                 <!--*==================== PLACES CARD 6 ====================-->
                 <div class="place__card">
@@ -381,8 +385,8 @@
 
                     <a href="/Projects/TicTac/index.html">
                         <button class="button button--flex place__button">
-                        <i class="ri-arrow-right-line"></i>
-                    </button></a>
+                            <i class="ri-arrow-right-line"></i>
+                        </button></a>
                 </div>
                 <!-- Hier weitere Zeile einfügen -->
             </div>
